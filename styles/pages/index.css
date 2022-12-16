@@ -1,0 +1,55 @@
+@import url(../global/global.css);
+@import url(../components/header.css);
+@import url(../components/footer.css);
+
+.welcome {
+  background-color: var(--color-secondary-light);
+}
+
+.welcome__name {
+  color: var(--color-primary);
+  font-weight: var(--semibold);
+}
+
+.welcome__title {
+  margin-bottom: 16px;
+}
+
+.articles-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+}
+
+.articles__article {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.articles__article-link {
+  color: var(--color-primary-dark);
+  font-weight: var(--semibold);
+  font-size: calc(14 / 16 * 1rem);
+  line-height: 143%;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* align-self: flex-start; */
+  width: fit-content;
+}
+
+.articles__article-link:hover {
+  color: var(--color-primary);
+}
+
+.presentation {
+  text-align: center;
+  text-shadow: 0.17rem 0.1rem 0.1rem var(--stone-50);
+}

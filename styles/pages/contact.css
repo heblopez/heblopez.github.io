@@ -1,0 +1,40 @@
+@import url(/styles/pages/index.css);
+
+.text-contact {
+  font-size: calc(18 / 16 * 1rem);
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container-form {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  border: #183cc0 solid 2px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  justify-items: first baseline;
+  border: rgb(59, 167, 16) solid 2px;
+}
+
+.input-group {
+  text-transform: uppercase;
+  font: "Open Sans";
+  font-size: calc(12 / 16 * 1rem);
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 0.125em;
+  color: #111827;
+  border: #c01853 solid 1px;
+}
+
+.input-field {
+  min-height: 40px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+    <link rel="stylesheet" href="/styles/pages/contact.css" />
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <div class="container-lg">
+        <div class="header">
+          <a href="/index.html" class="heading semibold header__logo"
+            >Heberth</a
+          >
+          <div class="right-content">
+            <nav>
+              <ul class="nav-links">
+                <li><a href="" class="text semibold nav-link">Articles</a></li>
+                <li>
+                  <a href="" class="text semibold nav-link">Portafolio</a>
+                </li>
+                <li>
+                  <a href="/about.html" class="text semibold nav-link">About</a>
+                </li>
+              </ul>
+            </nav>
+            <a class="contact-link" href="/contact.html"
+              ><button class="btn btn--primary btn--sm">Contact Me</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container-lg">
+          <h1 class="heading-xl semibold">Contact Me</h1>
+          <p class="text-contact">
+            Looking to expand your team? Or do you need a web developer for a
+            specific project? If I can help you in any way don't hesitate to
+            fill this form.
+          </p>
+          <div class="container-form">
+            <form action="" method="post">
+              <div class="container-inputs">
+                <div class="input-group">
+                  <label for="first-name">First name</label>
+                  <input
+                    class="input-field"
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                    placeholder="John"
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="last-name">Last name</label>
+                  <input
+                    class="input-field"
+                    type="text"
+                    name="last-name"
+                    id="last-name"
+                    placeholder="Doe"
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input
+                    class="input-field"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="john@mail.com"
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="company">Company/label>
+                  <input
+                    class="input-field"
+                    type="text"
+                    name="company"
+                    id="company"
+                    placeholder="Company SA"
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="phone">Phone</label>
+                  <input
+                    class="input-field"
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="987654321"
+                  />
+                </div>
+                <div class="input-group">
+                  <label for="country">Country</label>
+                  <select name="country" id="country">
+                    <option value="noCountry" selected disabled>Select one option</option>
+                    <option value="PE">Peru</option>
+                    <option value="MX">Mexico</option>
+                    <option value="AR">Argentina</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CL">Chile</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="VE">Venezuela</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <p class="input-group">How can I help you?</p>
+                <input type="checkbox" name="job-offer" id="job-offer" />
+                <label for="job-offer">Job Offer</label>
+                <p>If you are looking to expand your team</p>
+                <input type="checkbox" name="project-offer" id="project-offer" />
+                <label for="project-offer">Project Offer</label>
+                <p>If you are looking to expand your team</p>
+                <input type="checkbox" name="collaboration" id="collaboration" />
+                <label for="collaboration">Collaboration</label>
+                <p>If you are looking to expand your team</p>
+                <input type="checkbox" name="other" id="other" />
+                <label for="other">Other</label>
+              </div>
+              <button class="btn btn--lg btn--primary">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
