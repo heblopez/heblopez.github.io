@@ -41,7 +41,7 @@
   letter-spacing: 0.125em;
   text-transform: uppercase;
   text-decoration: none;
-  /* align-self: flex-start; */
+  align-self: flex-start;
   width: fit-content;
 }
 

@@ -1,40 +1,99 @@
 @import url(/styles/pages/index.css);
 
+.contact-container {
+  text-align: center;
+}
+
 .text-contact {
   font-size: calc(18 / 16 * 1rem);
   line-height: 1.5;
-  text-align: center;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .container-form {
   margin-top: 32px;
-  margin-bottom: 16px;
-  border: #183cc0 solid 2px;
-  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 640px;
 }
 
 .container-inputs {
+  margin-top: 32px;
+  margin-bottom: 32px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 32px;
-  justify-items: first baseline;
-  border: rgb(59, 167, 16) solid 2px;
+  text-align: left;
 }
 
 .input-group {
   text-transform: uppercase;
-  font: "Open Sans";
+  font: "Poppins";
   font-size: calc(12 / 16 * 1rem);
   font-weight: 300;
   line-height: 150%;
   letter-spacing: 0.125em;
-  color: #111827;
-  border: #c01853 solid 1px;
+  margin-bottom: 0.5rem;
 }
 
 .input-field {
-  min-height: 40px;
+  height: 40px;
+  color: var(--color-text);
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--gray-700);
+  background-color: var(--white);
+}
+
+.help-container {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.container-check {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.checkbox-input {
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  appearance: none;
+  border: 1px solid var(--stone-700);
+}
+
+.checkbox-input:checked {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  background-image: url(/images/icons/check-checked.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.send-button {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  line-height: 1rem;
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  font-weight: var(--semibold);
+  border: none;
+  font-size: calc(18 / 16 * 1rem);
+  line-height: calc(18 / 16 * 1rem);
+  padding: 14px 24px;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.send-button:hover {
+  background-color: var(--color-primary-dark);
 }
