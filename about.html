@@ -31,6 +31,37 @@
             ><button class="btn btn--primary btn--sm">Contact Me</button></a
           >
         </div>
+        <div class="menu-line">
+          <img
+            src="/images/icons/menu-line.svg"
+            alt="menu"
+            onclick="showMenu()"
+          />
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <nav>
+          <ul class="nav-links">
+            <div class="navlink-mobile">
+              <li>
+                <a href="/index.html#blog" class="text semibold nav-link">Articles</a>
+              </li>
+            </div>
+            <div class="navlink-mobile">
+              <li>
+                <a href="" class="text semibold nav-link">Portafolio</a>
+              </li>
+            </div>
+            <div class="navlink-mobile">
+              <li>
+                <a href="/about.html" class="text semibold nav-link">About</a>
+              </li>
+            </div>
+          </ul>
+          <a class="contact-link" href="/contact.html"
+            ><button class="btn btn--primary btn--sm">Contact Me</button></a
+          >
+        </nav>
       </div>
     </div>
   </header>
@@ -210,5 +241,12 @@
     </svg>
     <svg id="terminal-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="26" height="26"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 12l-7.071 7.071-1.414-1.414L8.172 12 2.515 6.343 3.929 4.93 11 12zm0 7h10v2H11v-2z" fill="rgba(16,185,129,1)"/></svg>
   </div>
+    <!-- END svg images -->
+  <script>
+    let navBarMobile = document.querySelector(".mobile-menu");
+    function showMenu() {
+      navBarMobile.classList.toggle("mobile-menu--open");
+    }
+  </script>
 </body>
 </html>
