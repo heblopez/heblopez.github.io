@@ -22,11 +22,6 @@
   gap: 32px;
 }
 
-.about-me-summary-content {
-  display: block;
-  gap: 32px;
-}
-
 .more-about-me {
   background-image: radial-gradient(
     circle 679px at 31.8% 55.7%,
@@ -59,6 +54,10 @@
 .about__card svg {
   width: 3rem;
   height: 32px;
+}
+
+.section-my-skills {
+  margin-bottom: 48px;
 }
 
 .about--hobbies__content {

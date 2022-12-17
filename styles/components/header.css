@@ -121,3 +121,44 @@
 .contact-link {
   text-decoration: none;
 }
+
+.menu-line {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 590px) {
+  .right-content {
+    display: none;
+  }
+
+  .menu-line {
+    display: block;
+  }
+
+  .mobile-menu--open {
+    display: block;
+    padding: 0px 0px 16px 0px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .navlink-mobile {
+    width: 100%;
+    padding: 4px 8px 4px 8px;
+    text-align: center;
+  }
+
+  .btn--primary {
+    margin: auto;
+    width: 100%;
+  }
+}
