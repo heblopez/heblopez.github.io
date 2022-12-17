@@ -18,11 +18,15 @@
 .articles-header {
   text-align: center;
   margin-bottom: 16px;
+  color: var(--color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .article-title {
   text-decoration: none;
-  color: var(--color-primary-light);
+  color: var(--gray-700);
+  text-shadow: 0.17rem 0.1rem 0.2rem white;
   font-weight: 600;
 }
 
