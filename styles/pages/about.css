@@ -5,10 +5,11 @@
   padding: 48px 0px;
 }
 .about--summary {
-  padding: 48px 0px;
+  padding-top: 48px;
 }
 .about--summary__header {
   text-align: center;
+  margin-bottom: 1rem;
 }
 .about--hobbies__header {
   text-align: center;
@@ -19,6 +20,35 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 32px;
+}
+
+.about-me-summary-content {
+  display: block;
+  gap: 32px;
+}
+
+.more-about-me {
+  background-image: radial-gradient(
+    circle 679px at 31.8% 55.7%,
+    rgba(191, 227, 249, 0.83) 0%,
+    rgba(243, 244, 246, 1) 36.9%,
+    rgba(243, 244, 246, 1) 82.4%
+  );
+}
+
+.container-profile-image {
+  margin: auto;
+}
+
+.about-paragraph {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.about-paragraph svg {
+  max-width: 26px;
+  max-height: 26px;
 }
 
 .about__card {

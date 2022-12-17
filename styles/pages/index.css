@@ -3,7 +3,12 @@
 @import url(../components/footer.css);
 
 .welcome {
-  background-color: var(--color-secondary-light);
+  /* background-color: var(--color-secondary-light); */
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgb(109, 188, 248) 0%,
+    rgba(166, 239, 253, 1) 90.1%
+  );
 }
 
 .welcome__name {
