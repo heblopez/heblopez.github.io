@@ -20,6 +20,12 @@
   margin-bottom: 16px;
 }
 
+.article-title {
+  text-decoration: none;
+  color: var(--color-primary-light);
+  font-weight: 600;
+}
+
 .articles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
