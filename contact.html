@@ -18,9 +18,7 @@
             <nav>
               <ul class="nav-links">
                 <li>
-                  <a href="/index.html#blog" class="text semibold nav-link"
-                    >Articles</a
-                  >
+                  <a href="#blog" class="text semibold nav-link">Articles</a>
                 </li>
                 <li>
                   <a href="" class="text semibold nav-link">Portafolio</a>
@@ -34,6 +32,37 @@
               ><button class="btn btn--primary btn--sm">Contact Me</button></a
             >
           </div>
+          <div class="menu-line">
+            <img
+              src="/images/icons/menu-line.svg"
+              alt="menu"
+              onclick="showMenu()"
+            />
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <nav>
+            <ul class="nav-links">
+              <div class="navlink-mobile">
+                <li>
+                  <a href="#blog" class="text semibold nav-link">Articles</a>
+                </li>
+              </div>
+              <div class="navlink-mobile">
+                <li>
+                  <a href="" class="text semibold nav-link">Portafolio</a>
+                </li>
+              </div>
+              <div class="navlink-mobile">
+                <li>
+                  <a href="/about.html" class="text semibold nav-link">About</a>
+                </li>
+              </div>
+            </ul>
+            <a class="contact-link" href="/contact.html"
+              ><button class="btn btn--primary btn--sm">Contact Me</button></a
+            >
+          </nav>
         </div>
       </div>
     </header>
@@ -187,5 +216,11 @@
         </div>
       </section>
     </main>
+    <script>
+      let navBarMobile = document.querySelector(".mobile-menu");
+      function showMenu() {
+        navBarMobile.classList.toggle("mobile-menu--open");
+      }
+    </script>
   </body>
 </html>
